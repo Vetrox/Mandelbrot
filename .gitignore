@@ -1,0 +1,22 @@
+# Rust/Cargo build files to ignore
+/target/
+/debug/
+*.rs.bk
+
+# Cargo lock file: keep for binaries, ignore for libraries as needed
+Cargo.lock
+
+# VSCode workspace settings and local files
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Debugging files
+*.pdb
+
+# Backup files
+*~
+*.swp
+mandelbrot.png
